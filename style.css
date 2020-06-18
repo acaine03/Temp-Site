@@ -1,0 +1,266 @@
+html {
+    color: #f2f4fb;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Aclonica Regular'), local('Aclonica-Regular'), url(https://fonts.gstatic.com/s/aclonica/v10/K2FyfZJVlfNNSEBXGY7UAo8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Vidaloka';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Vidaloka '), local('Vidaloka-Regular'), url(https://fonts.gstatic.com/s/vidaloka/v12/7cHrv4c3ipenMKlEavs7wH8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Aclonica";
+    background-color: #0900C3;
+    height: 30vh;
+    width: 100vw;
+    font-size: 3em;
+    text-align: center;
+}
+
+.main-section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.left-side-nav {
+    height: 70vh;
+    width: 15vw;
+    background-color: #6F0765;
+    font-family: "Vidaloka";
+    font-size: 1.3em;
+    min-height: 450px;
+    line-height: 170%;
+}
+
+.left-side-nav a {
+    color: #f2f4fb;
+}
+
+.right-side-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80vw;
+}
+
+.username {
+    color: black;
+    height: 1.5em;
+}
+
+.password { 
+    color: black;
+    height: 1.5em;
+}
+
+.sign-in-button button {
+    color: black;
+}
+
+.sign-in-button {
+    color: black;
+    height: 1.5em;
+}
+
+.forgot-email {
+    font: "Vidaloka";
+    color: royalblue;
+}
+
+.forgot-password {
+    font: "Vidaloka";
+    color: royalblue;
+}
+
+.about-us {
+    display: contents;
+    font-family: "Vidaloka";
+    font-size: 1em;
+    line-height: 150%;
+}
+
+.about-us-heading {
+    font: Aclonica;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.paragraph-1 {
+    font: "Vidaloka";
+    color: black;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    margin-right: 5em;
+}
+
+.paragraph-2 {
+    font: "Vidaloka";
+    color: black;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    margin-right: 5em;
+}
+
+.paragraph-3 {
+    font: "Vidaloka";
+    color: black;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    margin-right: 5em;
+}
+
+.home-nav {
+    font: "Vidaloka";
+    color: #0900C3;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 2%;
+    line-height: 200%;
+}
+
+.home-greeting {
+    color: black;
+    font-family: "Vidaloka";
+    align-self: flex-start;
+}
+
+.home-nav img {
+    border-radius: 10%;
+    max-block-size: 10em;
+}
+
+.home-nav a {
+    font-family: "Vidaloka";
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.summary-greeting {
+    font-family: "Vidaloka";
+    color: black;
+    align-self: flex-start;
+    line-height: 0%;
+}
+
+.bills {
+    font-family: "Vidaloka";
+    font-size: 1.1em;
+    color: black;
+    line-height: 170%;
+    align-self: flex-start;
+    margin-right: 10%;
+}
+
+.bills a {
+    color: #0900C3;
+    font-size: 0.5em;
+}
+
+.summary-content {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+.obligations {
+    font-family: "Vidaloka";
+    font-size: 1.1em;
+    color: black;
+    line-height: 170%;
+    align-self: flex-start;
+    margin-right: 10%;
+}
+
+.obligations a {
+    color: #0900C3;
+    font-size: 0.5em;
+}
+
+.money-in-pocket {
+    font-family: "Vidaloka";
+    font-size: 1.1em;
+    color: black;
+    line-height: 170%;
+    align-self: flex-start;
+}
+
+.contact-us {
+    display: contents;
+    font-family: "Vidaloka";
+    font-size: 1em;
+    line-height: 150%;
+    color: black;
+}
+
+.contact-information {
+    display: contents;
+    font-family: "Vidaloka";
+    font-size: 1em;
+    line-height: 150%;
+    color: black;
+}
+
+/* .education {
+
+}
+
+.apartments {
+
+}
+
+.your-vehicle {
+
+}
+
+.counseling {
+
+}
+
+.banking {
+
+} */
+
+footer {
+    color: black;
+    width: 100%;
+}
