@@ -13,7 +13,7 @@ export default () => `
     </div>  
     
         <div class="home-nav">
-          <a href="/Home"><img src="${homePage}" class="home"><figcaption>Home</figcaption></a>
+          <a href="/HomePage"><img src="${homePage}" class="home"><figcaption>Home</figcaption></a>
           <a><img src="${meetOurTeamPage}" class="team"><figcaption>Meet Our Team</figcaption></a>
           <a><img src="${clientServicesPage}" class="banking"><figcaption>Banking</figcaption></a>
           <a><img src="${resourcesPage}" class="resources"><figcaption>Resources</figcaption></a>

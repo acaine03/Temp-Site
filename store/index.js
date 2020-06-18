@@ -1,4 +1,4 @@
-export { default as Home } from "./HomePage";
+export { default as HomePage } from "./HomePage";
 export { default as Links } from "./Links";
 export { default as AboutUs } from "./AboutUs";
 export { default as MeetOurTeam } from "./MeetOurTeam";

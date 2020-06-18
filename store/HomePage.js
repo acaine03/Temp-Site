@@ -1,1 +1,1 @@
-export default { header: "Home", view: "HomePage" }
+export default { header: "Home Page", view: "HomePage" }
