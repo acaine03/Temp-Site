@@ -147,6 +147,8 @@ var _default = function _default(links) {
 exports.default = _default;
 },{}],"img/home.jpg":[function(require,module,exports) {
 module.exports = "/home.dc07cc9e.jpg";
+},{}],"img/aboutus.jpg":[function(require,module,exports) {
+module.exports = "/aboutus.47f0092f.jpg";
 },{}],"img/team.jpg":[function(require,module,exports) {
 module.exports = "/team.d60cd625.jpg";
 },{}],"img/services.jpg":[function(require,module,exports) {
@@ -167,6 +169,8 @@ exports.default = void 0;
 
 var homePage = require('../../img/home.jpg');
 
+var aboutUsPage = require('../../img/aboutus.jpg');
+
 var meetOurTeamPage = require('../../img/team.jpg');
 
 var clientServicesPage = require('../../img/services.jpg');
@@ -178,11 +182,11 @@ var careerOpportunitiesPage = require('../../img/career.jpg');
 var contactUs = require('../../img/contact.jpg');
 
 var _default = function _default() {
-  return "\n    <div class=\"right-side-content\">\n    <div class=\"home-greeting\">\n    <h3>Hello, Admin.</h3>\n    \n    </div>  \n    \n        <div class=\"home-nav\">\n          <a href=\"/HomePage\"><img src=\"".concat(homePage, "\" class=\"home\"><figcaption>Home</figcaption></a>\n          <a href=\"/MeetOurTeam\"><img src=\"").concat(meetOurTeamPage, "\" class=\"team\"><figcaption>Meet Our Team</figcaption></a>\n          <a href=\"/ClientServices\"><img src=\"").concat(clientServicesPage, "\" class=\"clientServices\"><figcaption>Client Services</figcaption></a>\n          <a href=\"/Resources\"><img src=\"").concat(resourcesPage, "\" class=\"resources\"><figcaption>Resources</figcaption></a>\n          <a href=\"/CareerOpportunities\"><img src=\"").concat(careerOpportunitiesPage, "\" class=\"careerOpportunities\"><figcaption>Career Opportunities</figcaption></a>\n          <a href=\"/ContactUs\"><img src=\"").concat(contactUs, "\" class=\"contactUs\"><figcaption>Contact Us</figcaption></a>\n        </div>\n    </div>\n");
+  return "\n    <div class=\"right-side-content\">\n    <div class=\"home-greeting\">\n    <h3>Hello, Admin.</h3>\n    \n    </div>  \n    \n        <div class=\"home-nav\">\n          <a href=\"/HomePage\"><img src=\"".concat(homePage, "\" class=\"home\"><figcaption>Home</figcaption></a>\n          <a href=\"/AboutUs\"><img src=\"").concat(aboutUsPage, "\" class=\"aboutUs\"><figcaption>About Us</figcaption></a>\n          <a href=\"/MeetOurTeam\"><img src=\"").concat(meetOurTeamPage, "\" class=\"team\"><figcaption>Meet Our Team</figcaption></a>\n          <a href=\"/ClientServices\"><img src=\"").concat(clientServicesPage, "\" class=\"clientServices\"><figcaption>Client Services</figcaption></a>\n          <a href=\"/Resources\"><img src=\"").concat(resourcesPage, "\" class=\"resources\"><figcaption>Resources</figcaption></a>\n          <a href=\"/CareerOpportunities\"><img src=\"").concat(careerOpportunitiesPage, "\" class=\"careerOpportunities\"><figcaption>Career Opportunities</figcaption></a>\n          <a href=\"/ContactUs\"><img src=\"").concat(contactUs, "\" class=\"contactUs\"><figcaption>Contact Us</figcaption></a>\n        </div>\n    </div>\n");
 };
 
 exports.default = _default;
-},{"../../img/home.jpg":"img/home.jpg","../../img/team.jpg":"img/team.jpg","../../img/services.jpg":"img/services.jpg","../../img/resources.jpg":"img/resources.jpg","../../img/career.jpg":"img/career.jpg","../../img/contact.jpg":"img/contact.jpg"}],"img/updates.png":[function(require,module,exports) {
+},{"../../img/home.jpg":"img/home.jpg","../../img/aboutus.jpg":"img/aboutus.jpg","../../img/team.jpg":"img/team.jpg","../../img/services.jpg":"img/services.jpg","../../img/resources.jpg":"img/resources.jpg","../../img/career.jpg":"img/career.jpg","../../img/contact.jpg":"img/contact.jpg"}],"img/updates.png":[function(require,module,exports) {
 module.exports = "/updates.6ba6a658.png";
 },{}],"components/views/AboutUs.js":[function(require,module,exports) {
 "use strict";
@@ -679,7 +683,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49868" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50803" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

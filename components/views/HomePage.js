@@ -1,4 +1,5 @@
 const homePage=require('../../img/home.jpg')
+const aboutUsPage=require('../../img/aboutus.jpg')
 const meetOurTeamPage=require('../../img/team.jpg')
 const clientServicesPage=require('../../img/services.jpg')
 const resourcesPage=require('../../img/resources.jpg')
@@ -14,6 +15,7 @@ export default () => `
     
         <div class="home-nav">
           <a href="/HomePage"><img src="${homePage}" class="home"><figcaption>Home</figcaption></a>
+          <a href="/AboutUs"><img src="${aboutUsPage}" class="aboutUs"><figcaption>About Us</figcaption></a>
           <a href="/MeetOurTeam"><img src="${meetOurTeamPage}" class="team"><figcaption>Meet Our Team</figcaption></a>
           <a href="/ClientServices"><img src="${clientServicesPage}" class="clientServices"><figcaption>Client Services</figcaption></a>
           <a href="/Resources"><img src="${resourcesPage}" class="resources"><figcaption>Resources</figcaption></a>
