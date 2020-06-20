@@ -8,13 +8,13 @@ export default () => `
             
             Questions?<a href="">Email Us</a><br>
             *Please Include*<br>
-            First Name<br>
-            Last Name<br>
+            Legal First Name<br>
+            Legal Last Name<br>
             Subject Line<br>
             Message - Reason for Contact<br>
             Best time to reach you<br>
             
-            A representative will respond within 48 hours.<br><br>
+            <i>A representative will respond within 48 hours.</i><br><br>
             Technical Issues? <a href="support@perfectlyimperfect-counseling.com">Contact Support</a>
         </div>
     </div>    

@@ -126,7 +126,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<!-- top-banner and left-side-nav will be stationary on every page to keep uniformity -->\n    <div class=\"top-banner\">\n        <h1>Perfectly</h1>\n    </div>\n";
+  return "\n<!-- top-banner and left-side-nav will be stationary on every page to keep uniformity -->\n    <div class=\"top-banner\">\n        <div class=\"logo\">\n            logo here\n        </div>\n        <div class=\"company-name\">\n        <h1>Perfectly</h1>\n        </div>\n    </div>\n";
 };
 
 exports.default = _default;
@@ -178,13 +178,34 @@ var careerOpportunitiesPage = require('../../img/career.jpg');
 var contactUs = require('../../img/contact.jpg');
 
 var _default = function _default() {
-  return "\n    <div class=\"right-side-content\">\n    <div class=\"home-greeting\">\n    <h3>Hello, Admin.</h3>\n    \n    </div>  \n    \n        <div class=\"home-nav\">\n          <a href=\"/HomePage\"><img src=\"".concat(homePage, "\" class=\"home\"><figcaption>Home</figcaption></a>\n          <a><img src=\"").concat(meetOurTeamPage, "\" class=\"team\"><figcaption>Meet Our Team</figcaption></a>\n          <a><img src=\"").concat(clientServicesPage, "\" class=\"banking\"><figcaption>Banking</figcaption></a>\n          <a><img src=\"").concat(resourcesPage, "\" class=\"resources\"><figcaption>Resources</figcaption></a>\n          <a><img src=\"").concat(careerOpportunitiesPage, "\" class=\"careerOpportunities\"><figcaption>Career Opportunities</figcaption></a>\n          <a><img src=\"").concat(contactUs, "\" class=\"contactUs\"><figcaption>Contact Us</figcaption></a>\n        </div>\n    </div>\n");
+  return "\n    <div class=\"right-side-content\">\n    <div class=\"home-greeting\">\n    <h3>Hello, Admin.</h3>\n    \n    </div>  \n    \n        <div class=\"home-nav\">\n          <a href=\"/HomePage\"><img src=\"".concat(homePage, "\" class=\"home\"><figcaption>Home</figcaption></a>\n          <a href=\"/MeetOurTeam\"><img src=\"").concat(meetOurTeamPage, "\" class=\"team\"><figcaption>Meet Our Team</figcaption></a>\n          <a href=\"/ClientServices\"><img src=\"").concat(clientServicesPage, "\" class=\"clientServices\"><figcaption>Client Services</figcaption></a>\n          <a href=\"/Resources\"><img src=\"").concat(resourcesPage, "\" class=\"resources\"><figcaption>Resources</figcaption></a>\n          <a href=\"/CareerOpportunities\"><img src=\"").concat(careerOpportunitiesPage, "\" class=\"careerOpportunities\"><figcaption>Career Opportunities</figcaption></a>\n          <a href=\"/ContactUs\"><img src=\"").concat(contactUs, "\" class=\"contactUs\"><figcaption>Contact Us</figcaption></a>\n        </div>\n    </div>\n");
 };
 
 exports.default = _default;
 },{"../../img/home.jpg":"img/home.jpg","../../img/team.jpg":"img/team.jpg","../../img/services.jpg":"img/services.jpg","../../img/resources.jpg":"img/resources.jpg","../../img/career.jpg":"img/career.jpg","../../img/contact.jpg":"img/contact.jpg"}],"img/updates.png":[function(require,module,exports) {
 module.exports = "/updates.6ba6a658.png";
-},{}],"components/views/MeetOurTeam.js":[function(require,module,exports) {
+},{}],"components/views/AboutUs.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var photo1 = require('../../img/updates.png');
+
+var photo2 = require('../../img/updates.png');
+
+var photo3 = require('../../img/updates.png');
+
+var photo4 = require('../../img/updates.png');
+
+var _default = function _default() {
+  return "\n    <div class=\"right-side-content\">\n        <div class=\"about-us\">\n    \n            <div class=\"about-us-heading\">\n                <h1>About Us</h1>\n            </div>\n            <div class=\"paragraph-1\">\n\n                <p>Perfectly Imperfect Counseling LLP provides a message to the world that being\n                Imperfect means having room to progress in life's journey. Determination and resiliency\n                are a couple of the resources needed to walk the paths we have chosen. To be Perfectly\n                Imperfect means to be willing, motivated, determined and resilient throughout your\n                life; even when it hurts to struggle. It is a message of empowerment and foresight\n                that no matter what we go through, we are already Perfect in every way.\n                </p>\n\n            </div>\n\n            <div class=\"safe-place\">\n\n                <h1>Welcome to our Safe Place</h1>\n\n                <img src=\"".concat(photo1, "\" class=\"photo1\"><figcaption>Description</figcaption>\n                <img src=\"").concat(photo2, "\" class=\"photo2\"><figcaption>Description</figcaption>\n                <img src=\"").concat(photo3, "\" class=\"photo3\"><figcaption>Description</figcaption>\n                <img src=\"").concat(photo4, "\" class=\"photo4\"><figcaption>Description</figcaption>\n                \n            </div>\n            \n        </div>\n    </div>\n");
+};
+
+exports.default = _default;
+},{"../../img/updates.png":"img/updates.png"}],"components/views/MeetOurTeam.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -207,44 +228,12 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var updatesComing = require('../../img/updates.png');
-
 var _default = function _default() {
-  return "\n    <div class=\"right-side-content\">\n        <div class=\"client-services\">\n    \n        <img src=\"".concat(updatesComing, "\" class=\"work-in-progress\">\n        </div>\n    </div>\n");
+  return "\n    <div class=\"right-side-content\">\n        <div class=\"client-services\">\n    \n        <p>Perfectly Imperfect Counseling provides a variety of custom services to the \n        Greater St. Louis area, St. Charles, St. Peters, O'Fallon, and Wentzville areas.\n        Our services cater to our clients' strengths, promote self-identification and \n        includes unconditional support. Reach out today to reserve a safe space to begin your\n        journey and acquire a listening, compassionate ear.\n        </p>\n\n        <div class=\"services-list\">\n            <u><ul>Services</ul></u>\n                <li>Individual Counseling</li>\n                <li>Couples Counseling</li>\n                <li>Family Counseling</li>\n                <li>Military</li>\n                <li>Healthcare Providers</li>\n                \n        </div>\n\n        <div class=\"specialties-list\">\n            <u><ul>Specialties</ul></u>\n                <li>Depression</li>\n                <li>Trauma</li>\n                <li>PTSD</li>\n                <li>Anxiety</li>\n                <li>Parenting</li>\n                <li>Codependency</li>\n                <li>Divorce</li>\n                <li>Self-Esteem</li>\n                <li>Stress</li>\n                <li>Grief Therapy</li>\n                <li>Substance Abuse</li>\n                <li>Addiction</li>\n                <li>Empowerment</li>\n                <li>Behavioral Issues</li>\n                <li>Domestic Violence</li>\n                <li>Family Conflict</li>\n                <li>Women's Issues</li>\n                <li>Relationship Issues</li>\n        </div>\n\n        </div>\n    </div>\n";
 };
 
 exports.default = _default;
-},{"../../img/updates.png":"img/updates.png"}],"components/views/Resources.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var updatesComing = require('../../img/updates.png');
-
-var _default = function _default() {
-  return "\n    <div class=\"right-side-content\">\n        <div class=\"resources\">\n    \n        <img src=\"".concat(updatesComing, "\" class=\"work-in-progress\">\n        </div>\n    </div>\n");
-};
-
-exports.default = _default;
-},{"../../img/updates.png":"img/updates.png"}],"components/views/CareerOpportunities.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var updatesComing = require('../../img/updates.png');
-
-var _default = function _default() {
-  return "\n    <div class=\"right-side-content\">\n        <div class=\"career-opportunities\">\n    \n        <img src=\"".concat(updatesComing, "\" class=\"work-in-progress\">\n        </div>\n    </div>\n");
-};
-
-exports.default = _default;
-},{"../../img/updates.png":"img/updates.png"}],"components/views/ContactUs.js":[function(require,module,exports) {
+},{}],"components/views/Resources.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -253,7 +242,33 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n    <div class=\"right-side-content\">\n        <div class=\"contact-us\">\n            <h2>Contact Us</h2>\n        \n        </div>\n        <div class=\"contact-information\">\n            \n            Questions?<a href=\"\">Email Us</a><br>\n            *Please Include*<br>\n            First Name<br>\n            Last Name<br>\n            Subject Line<br>\n            Message - Reason for Contact<br>\n            Best time to reach you<br>\n            \n            A representative will respond within 48 hours.<br><br>\n            Technical Issues? <a href=\"support@perfectlyimperfect-counseling.com\">Contact Support</a>\n        </div>\n    </div>    \n";
+  return "\n    <div class=\"right-side-content\">\n        <div class=\"resources\">\n    \n        <p>At Perfectly Imperfect Counseling, we strive to provide access to our Affiliates.\n        Check out our amazing resources! One just might fit your needs:\n        </p>\n\n        <div class=\"affiliates\">\n            <a href=\"\"><u>SAMHSA</u></a><figcaption>Substance Abuse & Mental Health Services</figcaption>\n            <a href=\"\"><u>MCADSV</u></a><figcaption>Sexual & Domestic Violence</figcaption>\n            <a href=\"\"><u>DMH</u></a><figcaption>Dept. of Mental Health</figcaption>\n            <a href=\"\"><u>ALIVE</u></a><figcaption>Intimate Partner Violence</figcaption>\n            <a href=\"\"><u>Imani Therapy</u></a><figcaption>North County Counseling</figcaption>\n            <a href=\"\"><u>A&A Inspirations</u></a><figcaption>St. Louis City Counseling</figcaption>\n            <a href=\"\"><u>MMHCA</u></a><figcaption>Mental Health Services</figcaption>\n            <a href=\"\"><u>Kathy J. Weinman</u></a><figcaption>Domestic Violence Shelter</figcaption>\n            <a href=\"\"><u>KHAOS Inc.</u></a><figcaption>Group Counseling</figcaption>\n            <a href=\"\"><u>ACA</u></a><figcaption>American Counseling Assoc.</figcaption>\n        </div>\n\n\n        </div>\n    </div>\n";
+};
+
+exports.default = _default;
+},{}],"components/views/CareerOpportunities.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _default = function _default() {
+  return "\n    <div class=\"right-side-content\">\n        <div class=\"career-opportunities\">\n    \n            <p>Looking for a great space to see your client or begin building your own private\n            practice? Search no more! We have beautiful, peaceful spaces available to rent. Hourly\n            or day-by-day.            \n            </p>\n\n            <div class=\"office-photos\">\n            </div>\n\n            <p>Interested? Send us an email at: <a href=\"\">inquiries@perfectlyimperfect-counseling.com</a></p>\n\n        </div>\n    </div>\n";
+};
+
+exports.default = _default;
+},{}],"components/views/ContactUs.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _default = function _default() {
+  return "\n    <div class=\"right-side-content\">\n        <div class=\"contact-us\">\n            <h2>Contact Us</h2>\n        \n        </div>\n        <div class=\"contact-information\">\n            \n            Questions?<a href=\"\">Email Us</a><br>\n            *Please Include*<br>\n            Legal First Name<br>\n            Legal Last Name<br>\n            Subject Line<br>\n            Message - Reason for Contact<br>\n            Best time to reach you<br>\n            \n            <i>A representative will respond within 48 hours.</i><br><br>\n            Technical Issues? <a href=\"support@perfectlyimperfect-counseling.com\">Contact Support</a>\n        </div>\n    </div>    \n";
 };
 
 exports.default = _default;
@@ -280,6 +295,12 @@ Object.defineProperty(exports, "HomePage", {
   enumerable: true,
   get: function () {
     return _HomePage.default;
+  }
+});
+Object.defineProperty(exports, "AboutUs", {
+  enumerable: true,
+  get: function () {
+    return _AboutUs.default;
   }
 });
 Object.defineProperty(exports, "MeetOurTeam", {
@@ -321,6 +342,8 @@ Object.defineProperty(exports, "Main", {
 
 var _HomePage = _interopRequireDefault(require("./HomePage"));
 
+var _AboutUs = _interopRequireDefault(require("./AboutUs"));
+
 var _MeetOurTeam = _interopRequireDefault(require("./MeetOurTeam"));
 
 var _ClientServices = _interopRequireDefault(require("./ClientServices"));
@@ -334,7 +357,7 @@ var _ContactUs = _interopRequireDefault(require("./ContactUs"));
 var _Main = _interopRequireDefault(require("./Main"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./HomePage":"components/views/HomePage.js","./MeetOurTeam":"components/views/MeetOurTeam.js","./ClientServices":"components/views/ClientServices.js","./Resources":"components/views/Resources.js","./CareerOpportunities.js":"components/views/CareerOpportunities.js","./ContactUs":"components/views/ContactUs.js","./Main":"components/views/Main.js"}],"components/Main.js":[function(require,module,exports) {
+},{"./HomePage":"components/views/HomePage.js","./AboutUs":"components/views/AboutUs.js","./MeetOurTeam":"components/views/MeetOurTeam.js","./ClientServices":"components/views/ClientServices.js","./Resources":"components/views/Resources.js","./CareerOpportunities.js":"components/views/CareerOpportunities.js","./ContactUs":"components/views/ContactUs.js","./Main":"components/views/Main.js"}],"components/Main.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -426,7 +449,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _default = [{
-  title: "Home",
+  title: "HomePage",
   text: "Home"
 }, {
   title: "AboutUs",
@@ -656,7 +679,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60471" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49868" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

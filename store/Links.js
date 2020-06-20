@@ -1,5 +1,5 @@
 export default [
-    { title: "Home", text: "Home"},
+    { title: "HomePage", text: "Home"},
     { title: "AboutUs", text: "About Us"},
     { title: "MeetOurTeam", text: "Meet Our Team" },
     { title: "ClientServices", text: "Client Services" },

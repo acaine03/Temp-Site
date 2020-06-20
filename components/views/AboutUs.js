@@ -1,3 +1,8 @@
+const photo1=require('../../img/updates.png')
+const photo2=require('../../img/updates.png')
+const photo3=require('../../img/updates.png')
+const photo4=require('../../img/updates.png')
+
 export default () => `
     <div class="right-side-content">
         <div class="about-us">
@@ -20,6 +25,11 @@ export default () => `
             <div class="safe-place">
 
                 <h1>Welcome to our Safe Place</h1>
+
+                <img src="${photo1}" class="photo1"><figcaption>Description</figcaption>
+                <img src="${photo2}" class="photo2"><figcaption>Description</figcaption>
+                <img src="${photo3}" class="photo3"><figcaption>Description</figcaption>
+                <img src="${photo4}" class="photo4"><figcaption>Description</figcaption>
                 
             </div>
             

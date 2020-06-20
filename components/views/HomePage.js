@@ -14,11 +14,11 @@ export default () => `
     
         <div class="home-nav">
           <a href="/HomePage"><img src="${homePage}" class="home"><figcaption>Home</figcaption></a>
-          <a><img src="${meetOurTeamPage}" class="team"><figcaption>Meet Our Team</figcaption></a>
-          <a><img src="${clientServicesPage}" class="banking"><figcaption>Banking</figcaption></a>
-          <a><img src="${resourcesPage}" class="resources"><figcaption>Resources</figcaption></a>
-          <a><img src="${careerOpportunitiesPage}" class="careerOpportunities"><figcaption>Career Opportunities</figcaption></a>
-          <a><img src="${contactUs}" class="contactUs"><figcaption>Contact Us</figcaption></a>
+          <a href="/MeetOurTeam"><img src="${meetOurTeamPage}" class="team"><figcaption>Meet Our Team</figcaption></a>
+          <a href="/ClientServices"><img src="${clientServicesPage}" class="clientServices"><figcaption>Client Services</figcaption></a>
+          <a href="/Resources"><img src="${resourcesPage}" class="resources"><figcaption>Resources</figcaption></a>
+          <a href="/CareerOpportunities"><img src="${careerOpportunitiesPage}" class="careerOpportunities"><figcaption>Career Opportunities</figcaption></a>
+          <a href="/ContactUs"><img src="${contactUs}" class="contactUs"><figcaption>Contact Us</figcaption></a>
         </div>
     </div>
 `;
