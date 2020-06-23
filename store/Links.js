@@ -4,6 +4,6 @@ export default [
     { title: "MeetOurTeam", text: "Meet Our Team" },
     { title: "ClientServices", text: "Client Services" },
     { title: "Resources", text: "Resources" },
-    { title: "CareerOpportunities", text: "Career Opportunities" },
+    { title: "Career", text: "Career" },
     { title: "ContactUs", text: "Contact Us" },
 ];
