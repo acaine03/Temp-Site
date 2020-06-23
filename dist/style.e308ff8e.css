@@ -2,26 +2,6 @@ html {
     color: black;
 }
 
-/* latin */
-@font-face {
-    font-family: 'Aclonica';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('Aclonica Regular'), local('Aclonica-Regular'), url(https://fonts.gstatic.com/s/aclonica/v10/K2FyfZJVlfNNSEBXGY7UAo8.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
-  /* latin */
-  @font-face {
-    font-family: 'Vidaloka';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('Vidaloka '), local('Vidaloka-Regular'), url(https://fonts.gstatic.com/s/vidaloka/v12/7cHrv4c3ipenMKlEavs7wH8.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
 body {
     margin: 0;
     display: flex;
@@ -30,6 +10,7 @@ body {
 
 h1 {
     text-align: center;
+    color: silver;
     
 }
 
@@ -45,8 +26,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-family: "Aclonica";
-    background-color: #0900C3;
+    font-family: 'Permanent Marker', cursive;
+    background-color: black;
     height: 30vh;
     width: 100vw;
     font-size: 3em;

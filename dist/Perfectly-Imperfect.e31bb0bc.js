@@ -126,7 +126,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<!-- top-banner and left-side-nav will be stationary on every page to keep uniformity -->\n    <div class=\"top-banner\">\n        <div class=\"logo\">\n            logo here\n        </div>\n        <div class=\"company-name\">\n        <h1>Perfectly</h1>\n        </div>\n    </div>\n";
+  return "\n<!-- top-banner and left-side-nav will be stationary on every page to keep uniformity -->\n    <div class=\"top-banner\">\n        <div class=\"logo\">\n            <img src=\"Perfectly Imperfect Logo-Original-Silver.png\">\n        </div>\n        <div class=\"company-name\">\n        <h1>Perfectly</h1>\n        <h1>Imperfect</h1>\n        </div>\n    </div>\n";
 };
 
 exports.default = _default;
@@ -683,7 +683,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58712" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50480" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
