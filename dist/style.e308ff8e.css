@@ -38,7 +38,7 @@ a:hover {
 .left-side-nav {
     height: 70vh;
     width: 15vw;
-    background-color: #6F0765;
+    background-color: black;
     font-family: "Vidaloka";
     font-size: 1.3em;
     min-height: 450px;
@@ -56,35 +56,6 @@ a:hover {
     align-items: center;
     margin: auto;
     width: 80vw;
-}
-
-.username {
-    color: black;
-    height: 1.5em;
-}
-
-.password { 
-    color: black;
-    height: 1.5em;
-}
-
-.sign-in-button button {
-    color: black;
-}
-
-.sign-in-button {
-    color: black;
-    height: 1.5em;
-}
-
-.forgot-email {
-    font: "Vidaloka";
-    color: royalblue;
-}
-
-.forgot-password {
-    font: "Vidaloka";
-    color: royalblue;
 }
 
 .about-us {
@@ -150,55 +121,6 @@ a:hover {
     font-family: "Vidaloka";
     font-size: 0.9em;
     text-align: center;
-}
-
-.summary-greeting {
-    font-family: "Vidaloka";
-    color: black;
-    align-self: flex-start;
-    line-height: 0%;
-}
-
-.bills {
-    font-family: "Vidaloka";
-    font-size: 1.1em;
-    color: black;
-    line-height: 170%;
-    align-self: flex-start;
-    margin-right: 10%;
-}
-
-.bills a {
-    color: #0900C3;
-    font-size: 0.5em;
-}
-
-.summary-content {
-    display: flex;
-    flex-flow: row;
-    width: 100%;
-}
-
-.obligations {
-    font-family: "Vidaloka";
-    font-size: 1.1em;
-    color: black;
-    line-height: 170%;
-    align-self: flex-start;
-    margin-right: 10%;
-}
-
-.obligations a {
-    color: #0900C3;
-    font-size: 0.5em;
-}
-
-.money-in-pocket {
-    font-family: "Vidaloka";
-    font-size: 1.1em;
-    color: black;
-    line-height: 170%;
-    align-self: flex-start;
 }
 
 .contact-us {
