@@ -7,16 +7,16 @@ export default () => `
         </p>
 
         <div class="affiliates">
-            <a href=""><u>SAMHSA</u></a><figcaption>Substance Abuse & Mental Health Services</figcaption>
-            <a href=""><u>MCADSV</u></a><figcaption>Sexual & Domestic Violence</figcaption>
-            <a href=""><u>DMH</u></a><figcaption>Dept. of Mental Health</figcaption>
-            <a href=""><u>ALIVE</u></a><figcaption>Intimate Partner Violence</figcaption>
-            <a href=""><u>Imani Therapy</u></a><figcaption>North County Counseling</figcaption>
-            <a href=""><u>A&A Inspirations</u></a><figcaption>St. Louis City Counseling</figcaption>
-            <a href=""><u>MMHCA</u></a><figcaption>Mental Health Services</figcaption>
-            <a href=""><u>Kathy J. Weinman</u></a><figcaption>Domestic Violence Shelter</figcaption>
-            <a href=""><u>KHAOS Inc.</u></a><figcaption>Group Counseling</figcaption>
-            <a href=""><u>ACA</u></a><figcaption>American Counseling Assoc.</figcaption>
+            <a href="">SAMHSA</a><figcaption>Substance Abuse & Mental Health Services</figcaption>
+            <a href="">MCADSV</a><figcaption>Sexual & Domestic Violence</figcaption>
+            <a href="">DMH</a><figcaption>Dept. of Mental Health</figcaption>
+            <a href="">ALIVE</a><figcaption>Intimate Partner Violence</figcaption>
+            <a href="">Imani Therapy</a><figcaption>North County Counseling</figcaption>
+            <a href="">A&A Inspirations</a><figcaption>St. Louis City Counseling</figcaption>
+            <a href="">MMHCA</a><figcaption>Mental Health Services</figcaption>
+            <a href="">Kathy J. Weinman</a><figcaption>Domestic Violence Shelter</figcaption>
+            <a href="">KHAOS Inc.</a><figcaption>Group Counseling</figcaption>
+            <a href="">ACA</a><figcaption>American Counseling Assoc.</figcaption>
         </div>
 
 

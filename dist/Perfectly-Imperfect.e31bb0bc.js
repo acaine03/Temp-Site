@@ -117,8 +117,8 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"img/logo-silver.png":[function(require,module,exports) {
-module.exports = "/logo-silver.42bd7cf6.png";
+})({"img/piclogo.png":[function(require,module,exports) {
+module.exports = "/piclogo.b0f96a4f.png";
 },{}],"components/Header.js":[function(require,module,exports) {
 "use strict";
 
@@ -127,14 +127,14 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var logo = require('./../img/logo-silver.png');
+var logo = require('./../img/piclogo.png');
 
 var _default = function _default() {
-  return "\n<!-- top-banner and left-side-nav will be stationary on every page to keep uniformity -->\n    <div class=\"top-banner\">\n        <div class=\"top-banner-content>\n\n        <div class=\"logo\">\n            <img src=\"".concat(logo, "\" class=\"logo\" height=\"200\" width=\"215\" />\n        </div>\n        \n            <h1>Perfectly Imperfect Counseling</h1>\n\n        </div>\n\n        </div>\n\n    </div>\n");
+  return "\n<!-- top-banner and left-side-nav will be stationary on every page to keep uniformity -->\n    <div class=\"top-banner\">\n        \n        <div class=\"top-banner-content>\n\n        <div class=\"logo\">\n            <img src=\"".concat(logo, "\" class=\"logo\" height=\"200\" width=\"215\" />\n        </div>\n        \n            <h1>Perfectly Imperfect Counseling</h1>\n\n        </div>\n\n        </div>\n\n    </div>\n");
 };
 
 exports.default = _default;
-},{"./../img/logo-silver.png":"img/logo-silver.png"}],"components/Nav.js":[function(require,module,exports) {
+},{"./../img/piclogo.png":"img/piclogo.png"}],"components/Nav.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -209,7 +209,13 @@ var _default = function _default() {
 };
 
 exports.default = _default;
-},{"../../img/updates.png":"img/updates.png"}],"components/views/MeetOurTeam.js":[function(require,module,exports) {
+},{"../../img/updates.png":"img/updates.png"}],"img/katelynn.jpg":[function(require,module,exports) {
+module.exports = "/katelynn.3098be3e.jpg";
+},{}],"img/mareayna.jpg":[function(require,module,exports) {
+module.exports = "/mareayna.19ad767d.jpg";
+},{}],"img/jennifer.jpg":[function(require,module,exports) {
+module.exports = "/jennifer.a43a3fbd.jpg";
+},{}],"components/views/MeetOurTeam.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -217,14 +223,18 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var updatesComing = require('../../img/updates.png');
+var katelynnhs = require('../../img/katelynn.jpg');
+
+var mareaynahs = require('../../img/mareayna.jpg');
+
+var jenniferhs = require('../../img/jennifer.jpg');
 
 var _default = function _default() {
-  return "\n    <div class=\"right-side-content\">\n        <div class=\"meet-our-team\">\n    \n        <img src=\"".concat(updatesComing, "\" class=\"work-in-progress\">\n        </div>\n    </div>\n");
+  return "\n    <div class=\"right-side-content\">\n\n        <div class=\"meet-our-team\">\n            \n            <div class=\"mareayna\" style=\"padding: 3em\">\n            <img src=\"".concat(mareaynahs, "\" class=\"mareayna-headshot\"><figcaption>Mareayna (Marina)<br>MA-CMHC, PLPC, NCC<br>Trauma & EMDR Specialist</figcaption>\n            </div>\n            \n            <div class=\"katelynn\" style=\"padding: 3em\">\n            <img src=\"").concat(katelynnhs, "\" class=\"katelynn-headshot\"><figcaption>Katelynn (Kate-Lynn)</figcaption>\n            </div>\n\n            <div class=\"jennifer\" style=\"padding: 3em\">\n            <img src=\"").concat(jenniferhs, "\" class=\"jennifer-headshot\"><figcaption>Jennifer (Jennifer)</figcaption>\n            </div>\n\n        </div>\n\n    </div>\n");
 };
 
 exports.default = _default;
-},{"../../img/updates.png":"img/updates.png"}],"components/views/ClientServices.js":[function(require,module,exports) {
+},{"../../img/katelynn.jpg":"img/katelynn.jpg","../../img/mareayna.jpg":"img/mareayna.jpg","../../img/jennifer.jpg":"img/jennifer.jpg"}],"components/views/ClientServices.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -233,7 +243,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n    <div class=\"right-side-content\">\n        <div class=\"client-services\">\n    \n        <p>Perfectly Imperfect Counseling provides a variety of custom services to the \n        Greater St. Louis area, St. Charles, St. Peters, O'Fallon, and Wentzville areas.\n        Our services cater to our clients' strengths, promote self-identification and \n        includes unconditional support. Reach out today to reserve a safe space to begin your\n        journey and acquire a listening, compassionate ear.\n        </p>\n\n        <div class=\"services-list\">\n            <u><ul>Services</ul></u>\n                <li>Individual Counseling</li>\n                <li>Couples Counseling</li>\n                <li>Family Counseling</li>\n                <li>Military</li>\n                <li>Healthcare Providers</li>\n                \n        </div>\n\n        <div class=\"specialties-list\">\n            <u><ul>Specialties</ul></u>\n                <li>Depression</li>\n                <li>Trauma</li>\n                <li>PTSD</li>\n                <li>Anxiety</li>\n                <li>Parenting</li>\n                <li>Codependency</li>\n                <li>Divorce</li>\n                <li>Self-Esteem</li>\n                <li>Stress</li>\n                <li>Grief Therapy</li>\n                <li>Substance Abuse</li>\n                <li>Addiction</li>\n                <li>Empowerment</li>\n                <li>Behavioral Issues</li>\n                <li>Domestic Violence</li>\n                <li>Family Conflict</li>\n                <li>Women's Issues</li>\n                <li>Relationship Issues</li>\n        </div>\n\n        </div>\n    </div>\n";
+  return "\n    <div class=\"right-side-content\">\n        <div class=\"client-services\">\n    \n        <p>Perfectly Imperfect Counseling provides a variety of custom services to the \n        Greater St. Louis area, St. Charles, St. Peters, O'Fallon, and Wentzville areas.\n        Our services cater to our clients' strengths, promote self-identification and \n        includes unconditional support. Reach out today to reserve a safe space to begin your\n        journey and acquire a listening, compassionate ear.\n        </p>\n\n        <div class=\"services-list\">\n            <u>Services</u><br>\n                Individual Counseling<br>\n                Couples Counseling<br>\n                Family Counseling<br>\n                Military<br>\n                Healthcare Providers\n                \n        </div>\n\n        <div class=\"specialties-list\">\n            <u>Specialties</u><br>\n                Depression<br>\n                Trauma<br>\n                PTSD<br>\n                Anxiety<br>\n                Parenting<br>\n                Codependency<br>\n                Divorce<br>\n                Self-Esteem<br>\n                Stress<br>\n                Grief Therapy<br>\n                Substance Abuse<br>\n                Addiction<br>\n                Empowerment<br>\n                Behavioral Issues<br>\n                Domestic Violence<br>\n                Family Conflict<br>\n                Women's Issues<br>\n                Relationship Issues\n        </div>\n\n        </div>\n    </div>\n";
 };
 
 exports.default = _default;
@@ -246,7 +256,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n    <div class=\"right-side-content\">\n        <div class=\"resources\">\n    \n        <p>At Perfectly Imperfect Counseling, we strive to provide access to our Affiliates.\n        Check out our amazing resources! One just might fit your needs:\n        </p>\n\n        <div class=\"affiliates\">\n            <a href=\"\"><u>SAMHSA</u></a><figcaption>Substance Abuse & Mental Health Services</figcaption>\n            <a href=\"\"><u>MCADSV</u></a><figcaption>Sexual & Domestic Violence</figcaption>\n            <a href=\"\"><u>DMH</u></a><figcaption>Dept. of Mental Health</figcaption>\n            <a href=\"\"><u>ALIVE</u></a><figcaption>Intimate Partner Violence</figcaption>\n            <a href=\"\"><u>Imani Therapy</u></a><figcaption>North County Counseling</figcaption>\n            <a href=\"\"><u>A&A Inspirations</u></a><figcaption>St. Louis City Counseling</figcaption>\n            <a href=\"\"><u>MMHCA</u></a><figcaption>Mental Health Services</figcaption>\n            <a href=\"\"><u>Kathy J. Weinman</u></a><figcaption>Domestic Violence Shelter</figcaption>\n            <a href=\"\"><u>KHAOS Inc.</u></a><figcaption>Group Counseling</figcaption>\n            <a href=\"\"><u>ACA</u></a><figcaption>American Counseling Assoc.</figcaption>\n        </div>\n\n\n        </div>\n    </div>\n";
+  return "\n    <div class=\"right-side-content\">\n        <div class=\"resources\">\n    \n        <p>At Perfectly Imperfect Counseling, we strive to provide access to our Affiliates.\n        Check out our amazing resources! One just might fit your needs:\n        </p>\n\n        <div class=\"affiliates\">\n            <a href=\"\">SAMHSA</a><figcaption>Substance Abuse & Mental Health Services</figcaption>\n            <a href=\"\">MCADSV</a><figcaption>Sexual & Domestic Violence</figcaption>\n            <a href=\"\">DMH</a><figcaption>Dept. of Mental Health</figcaption>\n            <a href=\"\">ALIVE</a><figcaption>Intimate Partner Violence</figcaption>\n            <a href=\"\">Imani Therapy</a><figcaption>North County Counseling</figcaption>\n            <a href=\"\">A&A Inspirations</a><figcaption>St. Louis City Counseling</figcaption>\n            <a href=\"\">MMHCA</a><figcaption>Mental Health Services</figcaption>\n            <a href=\"\">Kathy J. Weinman</a><figcaption>Domestic Violence Shelter</figcaption>\n            <a href=\"\">KHAOS Inc.</a><figcaption>Group Counseling</figcaption>\n            <a href=\"\">ACA</a><figcaption>American Counseling Assoc.</figcaption>\n        </div>\n\n\n        </div>\n    </div>\n";
 };
 
 exports.default = _default;
@@ -683,7 +693,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59225" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50022" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -10,35 +10,35 @@ export default () => `
         </p>
 
         <div class="services-list">
-            <u><ul>Services</ul></u>
-                <li>Individual Counseling</li>
-                <li>Couples Counseling</li>
-                <li>Family Counseling</li>
-                <li>Military</li>
-                <li>Healthcare Providers</li>
+            <u>Services</u><br>
+                Individual Counseling<br>
+                Couples Counseling<br>
+                Family Counseling<br>
+                Military<br>
+                Healthcare Providers
                 
         </div>
 
         <div class="specialties-list">
-            <u><ul>Specialties</ul></u>
-                <li>Depression</li>
-                <li>Trauma</li>
-                <li>PTSD</li>
-                <li>Anxiety</li>
-                <li>Parenting</li>
-                <li>Codependency</li>
-                <li>Divorce</li>
-                <li>Self-Esteem</li>
-                <li>Stress</li>
-                <li>Grief Therapy</li>
-                <li>Substance Abuse</li>
-                <li>Addiction</li>
-                <li>Empowerment</li>
-                <li>Behavioral Issues</li>
-                <li>Domestic Violence</li>
-                <li>Family Conflict</li>
-                <li>Women's Issues</li>
-                <li>Relationship Issues</li>
+            <u>Specialties</u><br>
+                Depression<br>
+                Trauma<br>
+                PTSD<br>
+                Anxiety<br>
+                Parenting<br>
+                Codependency<br>
+                Divorce<br>
+                Self-Esteem<br>
+                Stress<br>
+                Grief Therapy<br>
+                Substance Abuse<br>
+                Addiction<br>
+                Empowerment<br>
+                Behavioral Issues<br>
+                Domestic Violence<br>
+                Family Conflict<br>
+                Women's Issues<br>
+                Relationship Issues
         </div>
 
         </div>

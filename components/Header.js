@@ -1,10 +1,10 @@
-const logo=require('./../img/logo-silver.png')
-
+const logo=require('./../img/piclogo.png')
 
 
 export default () => `
 <!-- top-banner and left-side-nav will be stationary on every page to keep uniformity -->
     <div class="top-banner">
+        
         <div class="top-banner-content>
 
         <div class="logo">
