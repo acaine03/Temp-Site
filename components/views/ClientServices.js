@@ -10,7 +10,7 @@ export default () => `
         </p>
 
         <div class="services-list">
-            <u>Services</u><br>
+            <u>Services</u><br><br>
                 Individual Counseling<br>
                 Couples Counseling<br>
                 Family Counseling<br>
@@ -20,7 +20,7 @@ export default () => `
         </div>
 
         <div class="specialties-list">
-            <u>Specialties</u><br>
+            <u>Specialties</u><br><br>
                 Depression<br>
                 Trauma<br>
                 PTSD<br>
@@ -29,7 +29,7 @@ export default () => `
                 Codependency<br>
                 Divorce<br>
                 Self-Esteem<br>
-                Stress<br>
+                Stress<br><br><br>
                 Grief Therapy<br>
                 Substance Abuse<br>
                 Addiction<br>
