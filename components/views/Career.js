@@ -3,8 +3,8 @@ export default () => `
         <div class="career-opportunities">
     
             <p>Looking for a great space to see your client or begin building your own private
-            practice? Search no more! We have beautiful, peaceful spaces available to rent. Hourly
-            or day-by-day.            
+            practice? Search no more! We have beautiful, peaceful spaces available to rent. Spaces are
+            available day-by-day, weekly and monthly.            
             </p>
 
             <div class="office-photos">

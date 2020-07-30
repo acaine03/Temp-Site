@@ -230,7 +230,7 @@ var mareaynahs = require('../../img/mareayna.jpg');
 var jenniferhs = require('../../img/jennifer.jpg');
 
 var _default = function _default() {
-  return "\n    <div class=\"right-side-content\">\n\n        <div class=\"meet-our-team\">\n            \n            <div class=\"mareayna\" style=\"padding: 3em\">\n            <img src=\"".concat(mareaynahs, "\" class=\"mareayna-headshot\"><figcaption>Mareayna (Marina)<br>MA-CMHC, PLPC, NCC<br>Trauma & EMDR Specialist</figcaption>\n            </div>\n            \n            <div class=\"katelynn\" style=\"padding: 3em\">\n            <img src=\"").concat(katelynnhs, "\" class=\"katelynn-headshot\"><figcaption>Katelynn (Kate-Lynn)</figcaption>\n            </div>\n\n            <div class=\"jennifer\" style=\"padding: 3em\">\n            <img src=\"").concat(jenniferhs, "\" class=\"jennifer-headshot\"><figcaption>Jennifer (Jennifer)</figcaption>\n            </div>\n\n        </div>\n\n    </div>\n");
+  return "\n    <div class=\"right-side-content\">\n\n        <div class=\"meet-our-team\">\n            \n            <div class=\"mareayna\" style=\"padding: 1em; max-width: 25%;\">\n            <img src=\"".concat(mareaynahs, "\" class=\"mareayna-headshot\"><figcaption><b>Mareayna (Marina)<br>MA-CMHC, PLPC, NCC<br>\n            Trauma & EMDR Specialist</b></figcaption>\n            \n            <p>Mareayna is a Mental Health Therapist offering onsite and virtual counseling. \n            Her background includes working with ages seven and older on various levels. \n            She specializes in providing therapeutic guidance with trauma, PTSD, anxiety, grief, \n            and depression. She models her support using CBT - Cognitive Behavioral Therapy, \n            Motivational Interviewing, DBT- Dialectical Behavioral Therapy, Experiential Therapy, \n            Motivational Interviewing, and Person Centered Therapy. Mareayna believes that everyone \n            is a piece of our community and it is important to ensure we are all supported to better \n            our environment and lives.</p>\n\n            <p>Life is challenging, those challenges create internal strength and resilience. \n            Together, we identify core issues, feelings, and resolve problems while developing \n            healthy coping skills. Increasing self-empowerment creates an opportunity for clients \n            to embrace their unique strength and power. Together the journey to develop your \n            inner-self will connect you to a new mindset of mental health, emotional stability, \n            and self-discovery.</p>\n\n            <p>With motivation and determination, clients will begin the journey to their vision \n            of internal growth fully supported and excited! </p>\n\n            <p>\"Sentio Ergo Sum... is my favorite phrase. It means, 'I feel, therefore I am...'. \n            It gives us the control we need in our lives to determine how we want to live and what \n            we do with our emotions. It gives us an opportunity to feel what we need to feel and \n            then transition those feelings into ones that we can use to learn about ourselves. \n            \"'I feel' means that 'I am the priority'. \" - Mareayna </p>\n\n            </div>\n            \n            <div class=\"katelynn\" style=\"padding: 1em; max-width: 25%;\">\n            <img src=\"").concat(katelynnhs, "\" class=\"katelynn-headshot\"><figcaption><b>Katelynn (Kate-Lynn)</b></figcaption>\n            </div>\n\n            <div class=\"jennifer\" style=\"padding: 1em; max-width: 25%;\">\n            <img src=\"").concat(jenniferhs, "\" class=\"jennifer-headshot\"><figcaption><b>Jennifer (Jennifer)</b></figcaption>\n            </div>\n\n        </div>\n\n    </div>\n");
 };
 
 exports.default = _default;
@@ -269,7 +269,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n    <div class=\"right-side-content\">\n        <div class=\"career-opportunities\">\n    \n            <p>Looking for a great space to see your client or begin building your own private\n            practice? Search no more! We have beautiful, peaceful spaces available to rent. Hourly\n            or day-by-day.            \n            </p>\n\n            <div class=\"office-photos\">\n            </div>\n\n            <p>Interested? Send us an email at: <a href=\"\">inquiries@perfectlyimperfect-counseling.com</a></p>\n\n        </div>\n    </div>\n";
+  return "\n    <div class=\"right-side-content\">\n        <div class=\"career-opportunities\">\n    \n            <p>Looking for a great space to see your client or begin building your own private\n            practice? Search no more! We have beautiful, peaceful spaces available to rent. Spaces are\n            available day-by-day, weekly and monthly.            \n            </p>\n\n            <div class=\"office-photos\">\n            </div>\n\n            <p>Interested? Send us an email at: <a href=\"\">inquiries@perfectlyimperfect-counseling.com</a></p>\n\n        </div>\n    </div>\n";
 };
 
 exports.default = _default;
@@ -399,7 +399,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<footer>\n    <div class=\"footer\">\n        <h6>&copy; 2020 Perfectly Imperfect Counseling LLP</h6>\n    </div>\n</footer>\n";
+  return "\n<footer>\n    <div class=\"footer\">\n        <h6>&copy; 2020 Perfectly Imperfect Counseling LLP</h6>\n        <a href=\"http://www.onlinewebfonts.com\">oNline Web Fonts</a>\n    </div>\n</footer>\n";
 };
 
 exports.default = _default;
@@ -693,7 +693,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50780" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50066" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
