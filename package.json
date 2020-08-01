@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "parcel-build": "parcel build index.html && cp _redirects ./dist/",
+    "build": "parcel build index.html && cp _redirects ./dist/",
     "serve": "parcel index.html"
   },
   "keywords": [],
@@ -23,7 +24,8 @@
     "stylelint-vscode": "^7.0.0-6"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "components": "^0.1.0",
+    "lodash": "^4.17.19",
     "navigo": "^7.1.2"
   }
 }
