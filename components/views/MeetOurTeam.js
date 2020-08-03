@@ -1,6 +1,6 @@
-const katelynnhs=require('../../img/katelynn.jpg')
-const mareaynahs=require('../../img/mareayna.jpg')
-const jenniferhs=require('../../img/jennifer.jpg')
+const katelynnhs=require('../../img/Katelynn.jpg')
+const mareaynahs=require('../../img/Mareayna.jpg')
+const jenniferhs=require('../../img/Jennifer.jpg')
 
 export default () => `
     <div class="right-side-content">
