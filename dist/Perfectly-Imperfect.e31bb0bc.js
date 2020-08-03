@@ -641,7 +641,7 @@ var components = _interopRequireWildcard(require("./components"));
 
 var state = _interopRequireWildcard(require("./store"));
 
-var _navigo = _interopRequireDefault(require("navigo"));
+var _navigo = _interopRequireDefault(require(".//.//node_modules/navigo"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -660,12 +660,11 @@ router.on({
 }).resolve();
 
 function render(st) {
-  console.log(st);
   document.querySelector("#root").innerHTML = "\n    ".concat((0, components.Header)(st), "\n    ").concat((0, components.Nav)(state.Links), "\n    ").concat((0, components.Main)(st), "\n    ").concat((0, components.Footer)(), "\n    ");
 }
 
 router.updatePageLinks();
-},{"./components":"components/index.js","./store":"store/index.js","navigo":"node_modules/navigo/lib/navigo.min.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./components":"components/index.js","./store":"store/index.js",".//.//node_modules/navigo":"node_modules/navigo/lib/navigo.min.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -693,7 +692,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63564" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54482" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
